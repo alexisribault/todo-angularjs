@@ -22,7 +22,7 @@
         </div>
         <hr>
         <div class="col-md-4 col-md-offset-4">
-            <p><% (todos | filter:{done:true}).length %> / <% todos.length %> tasks have been completed</p>
+            <p style="text-align:center" ><% (todos | filter:{done:true}).length %> / <% todos.length %> tasks have been completed</p>
             <p></p>
             <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: <% (todos | filter:{done:true}).length / todos.length * 100 %>%;">
