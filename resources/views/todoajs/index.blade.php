@@ -9,7 +9,7 @@
 
 @section('content')
     <div class="container" ng-app="todoApp" ng-controller="todoController">
-        <h1 style="text-align:center;" >TodoApp index view</h1>
+        <h1 style="text-align:center;" >Todo List</h1>
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <!--<input type='text' ng-model="todo.title">-->
