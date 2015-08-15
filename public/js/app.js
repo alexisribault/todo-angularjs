@@ -18,7 +18,7 @@ app.controller('todoController', function($scope, $http) {
                 $scope.loading = false;
                 console.log(data);
             });
-    }
+    } 
 
     $scope.addTodo = function(todo) {
         $scope.loading = true;
